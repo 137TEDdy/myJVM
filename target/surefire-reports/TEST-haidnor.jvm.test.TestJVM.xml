@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="30" failures="0" name="haidnor.jvm.test.TestJVM" time="0.613" errors="0" skipped="0">
+  <properties>
+    <property name="idea.version" value="2021.3.3"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="17.0.5+8-LTS"/>
+    <property name="sun.boot.library.path" value="C:\Users\86152\.jdks\corretto-17.0.5\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\APP\apache-maven-3.6.1-bin\IDEAworkspace\complete2-JVM"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\APP\apache-maven-3.6.1-bin\IDEAworkspace\complete2-JVM"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="17.0.5+8-LTS"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="D:\temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="maven.ext.class.path" value="D:\IDEA\IntelliJ IDEA 2021.3.3\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="D:\APP\apache-maven-3.6.1-bin\apache-maven-3.6.1\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="C:\Users\86152\.jdks\corretto-17.0.5\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Windows\System64;D:\jdk\jdk-17\bin;D:\jdk\jdk-17\jre\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\Linux\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files\dotnet\;%QUARTUS_ROOTDIR%\bin;D:\APP\apache-maven-3.6.1-bin\apache-maven-3.6.1\bin;%CATALINA_HOME%\lib;%CATALINA_HOME%\bin;%CATALINA_HOME%\lib\servlet-api.jar;D:\APP\Git\cmd;D:\APP2\Anaconda;D:\APP2\Anaconda\Scripts;D:\APP2\Anaconda\Library\bin;C:\Users\86152\AppData\Roaming\pip\pip.ini;C:\Users\86152\AppData\Local\Programs\Python\Python37\Scripts;C:\Users\86152\AppData\Local\Programs\Python\Python37\;D:\APP\node.js\;D:\APP\node.js\node_global\node_modules;D:\APP\neo4j\neo4j-chs-community-4.4.8-windows\bin;D:\APP2\微信web;D:\Golang\GOPATH\bin;D:\Golang\Go\bin;D:\APP2\ffmpeg-5.1.2-essentials_build\bin;C:\Program Files\Docker\Docker\resources\bin;D:\APP\Hbuilder\HBuilderX\plugins\launcher\tools\adbs;D:\APP2\php-8.2.11-nts-Win32-vs16-x64;D:\mysql\mysql-8.0.31-winx64\bin;D:\APP2\xftp\;C:\Windows\System64;D:\APP\OpenSSL-Win64\bin;D:\jdk\jdk-17\bin;D:\jdk\jdk-17\jre\bin;D:\APP2\Anaconda;D:\APP2\Anaconda\Scripts;D:\APP2\Anaconda\Library\bin;D:\pycharm_profession\PyCharm 2023.2.1\bin;;D:\pycharm\PyCharm Community Edition 2023.2.3\bin;;C:\Users\86152\AppData\Roaming\pip\pip.ini;C:\Users\86152\AppData\Local\Programs\Python\Python37\Scripts;C:\Users\86152\AppData\Local\Programs\Python\Python37\;C:\Users\86152\Desktop\Tools\WinNT;C:\Users\86152\Desktop\MSDev98\Bin;C:\Users\86152\Desktop\Tools;C:\Users\86152\VC98\bin;C:\Users\86152\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;\Microsoft VS Code\bin;D:\Microsoft VS Code\bin;D:\2\Modelsim10.6\win64;D:\2\Modelsim\win64;D:\APP\node.js\node_global;D:\APP\neo4j\neo4j-chs-community-4.4.8-windows\bin;D:\APP\jena-fuseki\apache-jena-3.9.0\bat;D:\APP\jena-fuseki\apache-jena-3.9.0\bin;C:\Users\86152\go\bin;D:\goland\GoLand 2023.2.1\bin;;D:\APP2\ffmpeg-5.1.2-essentials_build\bin;D:\APP2\gRpc\protoc-21.11-win64\bin;D:\APP(project)\rabbitMQ\erlang\erl9.2\bin;C:\Program Files\Docker\Docker\resources\bin;D:\mysql\mysql-8.0.31-winx64\bin;D:\APP2\g++\MinGW\bin;;."/>
+    <property name="maven.conf" value="D:\APP\apache-maven-3.6.1-bin\apache-maven-3.6.1/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="maven.repo.local" value="D:\APP\apache-maven-3.6.1-bin\repository"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\86152"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="user.name" value="86152"/>
+    <property name="java.class.path" value="D:\APP\apache-maven-3.6.1-bin\apache-maven-3.6.1\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2021.3.3 -s D:\APP\apache-maven-3.6.1-bin\apache-maven-3.6.1\conf\settings.xml -Dmaven.repo.local=D:\APP\apache-maven-3.6.1-bin\repository package"/>
+    <property name="java.home" value="C:\Users\86152\.jdks\corretto-17.0.5"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="17.0.5"/>
+    <property name="native.encoding" value="GBK"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="maven.home" value="D:\APP\apache-maven-3.6.1-bin\apache-maven-3.6.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-17/issues/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="Corretto-17.0.5.8.1"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="haidnor.jvm.test.TestJVM" name="demo_exception_1" time="0.414"/>
+  <testcase classname="haidnor.jvm.test.TestJVM" name="demo_exception_2" time="0.01"/>
+  <testcase classname="haidnor.jvm.test.TestJVM" name="demo_exception_3" time="0.005"/>
+  <testcase classname="haidnor.jvm.test.TestJVM" name="demo_exception_4" time="0.004"/>
+  <testcase classname="haidnor.jvm.test.TestJVM" name="test_ISUB" time="0.004"/>
+  <testcase classname="haidnor.jvm.test.TestJVM" name="test_LSUB" time="0.005"/>
+  <testcase classname="haidnor.jvm.test.TestJVM" name="test_NEW" time="0.01"/>
+  <testcase classname="haidnor.jvm.test.TestJVM" name="demo_while" time="0.006"/>
+  <testcase classname="haidnor.jvm.test.TestJVM" name="test_1" time="0.003"/>
+  <testcase classname="haidnor.jvm.test.TestJVM" name="test_2" time="0.003"/>
+  <testcase classname="haidnor.jvm.test.TestJVM" name="test_3" time="0.032"/>
+  <testcase classname="haidnor.jvm.test.TestJVM" name="test_4" time="0.013"/>
+  <testcase classname="haidnor.jvm.test.TestJVM" name="test_5" time="0.01"/>
+  <testcase classname="haidnor.jvm.test.TestJVM" name="test_6" time="0.013"/>
+  <testcase classname="haidnor.jvm.test.TestJVM" name="test_7" time="0.006"/>
+  <testcase classname="haidnor.jvm.test.TestJVM" name="test_8" time="0.019"/>
+  <testcase classname="haidnor.jvm.test.TestJVM" name="demo_finally_1" time="0.007"/>
+  <testcase classname="haidnor.jvm.test.TestJVM" name="demo_finally_2" time="0.003"/>
+  <testcase classname="haidnor.jvm.test.TestJVM" name="demo_finally_3" time="0.003"/>
+  <testcase classname="haidnor.jvm.test.TestJVM" name="demo_doWhile" time="0.005"/>
+  <testcase classname="haidnor.jvm.test.TestJVM" name="test_" time="0"/>
+  <testcase classname="haidnor.jvm.test.TestJVM" name="demo_enum_1" time="0"/>
+  <testcase classname="haidnor.jvm.test.TestJVM" name="test_Switch_table" time="0.005"/>
+  <testcase classname="haidnor.jvm.test.TestJVM" name="demo_foreach_2" time="0"/>
+  <testcase classname="haidnor.jvm.test.TestJVM" name="demo_foreach_3" time="0"/>
+  <testcase classname="haidnor.jvm.test.TestJVM" name="demo_for" time="0.005"/>
+  <testcase classname="haidnor.jvm.test.TestJVM" name="test_DOWHILE" time="0.005"/>
+  <testcase classname="haidnor.jvm.test.TestJVM" name="test_Switch_lookup" time="0.004"/>
+  <testcase classname="haidnor.jvm.test.TestJVM" name="demo_foreach" time="0.01"/>
+  <testcase classname="haidnor.jvm.test.TestJVM" name="test_Array" time="0.009"/>
+</testsuite>
