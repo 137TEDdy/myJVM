@@ -1,10 +1,10 @@
-package haidnor.jvm.instruction.loads;
+package ted.jvm.instruction.loads;
 
-import haidnor.jvm.instruction.Instruction;
-import haidnor.jvm.rtda.Instance;
-import haidnor.jvm.rtda.InstanceArray;
-import haidnor.jvm.runtime.Frame;
-import haidnor.jvm.core.CodeStream;
+import ted.jvm.instruction.Instruction;
+import ted.jvm.rtda.Instance;
+import ted.jvm.rtda.InstanceArray;
+import ted.jvm.runtime.Frame;
+import ted.jvm.core.CodeStream;
 
 
 public class AALOAD extends Instruction {

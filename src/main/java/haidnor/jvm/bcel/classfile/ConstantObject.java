@@ -14,7 +14,7 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-package haidnor.jvm.bcel.classfile;
+package ted.jvm.bcel.classfile;
 
 /**
  * This interface denotes those constants that have a "natural" value, such as ConstantLong, ConstantString, etc..

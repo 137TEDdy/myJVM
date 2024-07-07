@@ -1,14 +1,14 @@
-package haidnor.jvm.core;
+package ted.jvm.core;
 
 
-import haidnor.jvm.bcel.Const;
-import haidnor.jvm.bcel.classfile.*;
-import haidnor.jvm.instruction.Instruction;
-import haidnor.jvm.instruction.InstructionFactory;
-import haidnor.jvm.instruction.control.ReturnableInstruction;
-import haidnor.jvm.runtime.Frame;
-import haidnor.jvm.runtime.JVMThread;
-import haidnor.jvm.runtime.StackValue;
+import ted.jvm.bcel.Const;
+import ted.jvm.bcel.classfile.*;
+import ted.jvm.instruction.Instruction;
+import ted.jvm.instruction.InstructionFactory;
+import ted.jvm.instruction.control.ReturnableInstruction;
+import ted.jvm.runtime.Frame;
+import ted.jvm.runtime.JVMThread;
+import ted.jvm.runtime.StackValue;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
 
@@ -69,7 +69,7 @@ public class JavaExecutionEngine {
     }
 
     /**
-     * 执行 JVM 线程栈栈帧 (haidnorJVM 中最关键的代码)
+     * 执行 JVM 线程栈栈帧 (tedJVM 中最关键的代码)
      */
     @SneakyThrows
     public static void executeFrame(Frame frame) {

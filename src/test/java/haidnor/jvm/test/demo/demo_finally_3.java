@@ -1,4 +1,4 @@
-package haidnor.jvm.test.demo;
+package ted.jvm.test.demo;
 
 /**
  * try 异常前不应该执行 finally
@@ -21,7 +21,7 @@ public class demo_finally_3 {
 }
 /*
 main(String[] args):
-    0 invokestatic #7 <haidnor/jvm/test/demo/demo_finally_3.fun : ()V>
+    0 invokestatic #7 <ted/jvm/test/demo/demo_finally_3.fun : ()V>
     3 return
 
 fun():

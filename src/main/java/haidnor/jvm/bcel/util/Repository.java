@@ -14,15 +14,15 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-package haidnor.jvm.bcel.util;
+package ted.jvm.bcel.util;
 
-import haidnor.jvm.bcel.classfile.JavaClass;
+import ted.jvm.bcel.classfile.JavaClass;
 
 /**
  * Abstract definition of a class repository. Instances may be used to load classes from different sources and may be
  * used in the Repository.setRepository method.
  *
- * @see haidnor.jvm.bcel.Repository
+ * @see ted.jvm.bcel.Repository
  */
 public interface Repository {
 

@@ -1,9 +1,9 @@
-package haidnor.jvm.instruction.control;
+package ted.jvm.instruction.control;
 
-import haidnor.jvm.runtime.Frame;
-import haidnor.jvm.runtime.StackValue;
-import haidnor.jvm.core.CodeStream;
-import haidnor.jvm.core.JVMThreadHolder;
+import ted.jvm.runtime.Frame;
+import ted.jvm.runtime.StackValue;
+import ted.jvm.core.CodeStream;
+import ted.jvm.core.JVMThreadHolder;
 
 public class IRETURN extends ReturnableInstruction {
 

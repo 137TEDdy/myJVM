@@ -14,12 +14,12 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-package haidnor.jvm.bcel.generic;
+package ted.jvm.bcel.generic;
 
-import haidnor.jvm.bcel.Const;
-import haidnor.jvm.bcel.classfile.Constant;
-import haidnor.jvm.bcel.classfile.ConstantDouble;
-import haidnor.jvm.bcel.classfile.ConstantLong;
+import ted.jvm.bcel.Const;
+import ted.jvm.bcel.classfile.Constant;
+import ted.jvm.bcel.classfile.ConstantDouble;
+import ted.jvm.bcel.classfile.ConstantLong;
 
 /**
  * LDC2_W - Push long or double from constant pool

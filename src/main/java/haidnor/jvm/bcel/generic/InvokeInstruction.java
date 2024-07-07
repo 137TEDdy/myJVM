@@ -14,13 +14,13 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-package haidnor.jvm.bcel.generic;
+package ted.jvm.bcel.generic;
 
-import haidnor.jvm.bcel.Const;
-import haidnor.jvm.bcel.classfile.Constant;
-import haidnor.jvm.bcel.classfile.ConstantCP;
-import haidnor.jvm.bcel.classfile.ConstantPool;
-import haidnor.jvm.bcel.classfile.Utility;
+import ted.jvm.bcel.Const;
+import ted.jvm.bcel.classfile.Constant;
+import ted.jvm.bcel.classfile.ConstantCP;
+import ted.jvm.bcel.classfile.ConstantPool;
+import ted.jvm.bcel.classfile.Utility;
 
 import java.util.StringTokenizer;
 

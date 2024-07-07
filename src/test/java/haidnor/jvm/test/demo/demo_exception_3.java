@@ -1,4 +1,4 @@
-package haidnor.jvm.test.demo;
+package ted.jvm.test.demo;
 
 /**
  * 调用方捕获调用方法的异常的父类
@@ -24,7 +24,7 @@ main(String[] args)
      0 iconst_0
      1 istore_1
      2 iload_1
-     3 invokestatic #7 <haidnor/jvm/test/demo/demo_exception_3.fun : (I)V>
+     3 invokestatic #7 <ted/jvm/test/demo/demo_exception_3.fun : (I)V>
      6 goto 18 (+12)
      9 astore_2
     10 getstatic #15 <java/lang/System.out : Ljava/io/PrintStream;>

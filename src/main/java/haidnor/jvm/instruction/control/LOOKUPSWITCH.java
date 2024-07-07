@@ -1,9 +1,9 @@
-package haidnor.jvm.instruction.control;
+package ted.jvm.instruction.control;
 
 
-import haidnor.jvm.instruction.Instruction;
-import haidnor.jvm.runtime.Frame;
-import haidnor.jvm.core.CodeStream;
+import ted.jvm.instruction.Instruction;
+import ted.jvm.runtime.Frame;
+import ted.jvm.core.CodeStream;
 import lombok.extern.slf4j.Slf4j;
 import java.util.LinkedHashMap;
 import java.util.Map;

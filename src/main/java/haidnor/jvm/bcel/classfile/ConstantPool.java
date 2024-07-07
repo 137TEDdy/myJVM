@@ -14,10 +14,10 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-package haidnor.jvm.bcel.classfile;
+package ted.jvm.bcel.classfile;
 
-import haidnor.jvm.bcel.Const;
-import haidnor.jvm.bcel.generic.ConstantPoolGen;
+import ted.jvm.bcel.Const;
+import ted.jvm.bcel.generic.ConstantPoolGen;
 
 import java.io.DataInput;
 import java.io.DataOutputStream;

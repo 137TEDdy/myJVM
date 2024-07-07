@@ -1,14 +1,14 @@
-package haidnor.jvm.instruction.constants;
+package ted.jvm.instruction.constants;
 
-import haidnor.jvm.bcel.Const;
-import haidnor.jvm.bcel.classfile.Constant;
-import haidnor.jvm.bcel.classfile.ConstantDouble;
-import haidnor.jvm.bcel.classfile.ConstantLong;
-import haidnor.jvm.bcel.classfile.ConstantPool;
-import haidnor.jvm.instruction.Instruction;
-import haidnor.jvm.runtime.Frame;
-import haidnor.jvm.runtime.StackValue;
-import haidnor.jvm.core.CodeStream;
+import ted.jvm.bcel.Const;
+import ted.jvm.bcel.classfile.Constant;
+import ted.jvm.bcel.classfile.ConstantDouble;
+import ted.jvm.bcel.classfile.ConstantLong;
+import ted.jvm.bcel.classfile.ConstantPool;
+import ted.jvm.instruction.Instruction;
+import ted.jvm.runtime.Frame;
+import ted.jvm.runtime.StackValue;
+import ted.jvm.core.CodeStream;
 
 /**
  * 将 long 或 double 型常量从常量池中推送至栈顶 (宽索引)

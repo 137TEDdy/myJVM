@@ -1,4 +1,4 @@
-package haidnor.jvm.test.demo;
+package ted.jvm.test.demo;
 
 import java.util.ArrayList;
 import java.util.List;

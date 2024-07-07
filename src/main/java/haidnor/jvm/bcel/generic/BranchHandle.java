@@ -14,7 +14,7 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-package haidnor.jvm.bcel.generic;
+package ted.jvm.bcel.generic;
 
 /**
  * BranchHandle is returned by specialized InstructionList.append() whenever a BranchInstruction is appended. This is

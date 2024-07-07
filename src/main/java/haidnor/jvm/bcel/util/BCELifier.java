@@ -14,15 +14,15 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-package haidnor.jvm.bcel.util;
+package ted.jvm.bcel.util;
 
-import haidnor.jvm.bcel.Const;
-import haidnor.jvm.bcel.Repository;
-import haidnor.jvm.bcel.classfile.*;
-import haidnor.jvm.bcel.generic.ArrayType;
-import haidnor.jvm.bcel.generic.ConstantPoolGen;
-import haidnor.jvm.bcel.generic.MethodGen;
-import haidnor.jvm.bcel.generic.Type;
+import ted.jvm.bcel.Const;
+import ted.jvm.bcel.Repository;
+import ted.jvm.bcel.classfile.*;
+import ted.jvm.bcel.generic.ArrayType;
+import ted.jvm.bcel.generic.ConstantPoolGen;
+import ted.jvm.bcel.generic.MethodGen;
+import ted.jvm.bcel.generic.Type;
 import org.apache.commons.lang3.StringUtils;
 
 import java.io.IOException;

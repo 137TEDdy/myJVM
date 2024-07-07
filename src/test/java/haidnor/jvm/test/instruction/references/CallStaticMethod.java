@@ -1,4 +1,4 @@
-package haidnor.jvm.test.instruction.references;
+package ted.jvm.test.instruction.references;
 
 public class CallStaticMethod {
 

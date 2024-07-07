@@ -1,6 +1,6 @@
-package haidnor.jvm.test.demo;
+package ted.jvm.test.demo;
 
-import haidnor.jvm.test.clazz.Student;
+import ted.jvm.test.clazz.Student;
 
 import java.util.HashMap;
 

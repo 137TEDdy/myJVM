@@ -14,7 +14,7 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-package haidnor.jvm.bcel.classfile;
+package ted.jvm.bcel.classfile;
 
 /**
  * Visitor with empty method bodies, can be extended and used in conjunction with the DescendingVisitor class, e.g. By

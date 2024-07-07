@@ -1,4 +1,4 @@
-package haidnor.jvm.test.demo;
+package ted.jvm.test.demo;
 
 public class demo_finally_1 {
 
@@ -19,7 +19,7 @@ public class demo_finally_1 {
 }
 /*
 main(String[] args):
-     0 invokestatic #7 <haidnor/jvm/test/demo/TEST_finally.fun : ()Ljava/lang/String;>
+     0 invokestatic #7 <ted/jvm/test/demo/TEST_finally.fun : ()Ljava/lang/String;>
      3 astore_1
      4 getstatic #13 <java/lang/System.out : Ljava/io/PrintStream;>
      7 aload_1

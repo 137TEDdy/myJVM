@@ -14,7 +14,7 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-package haidnor.jvm.bcel.generic;
+package ted.jvm.bcel.generic;
 
 /**
  * Denote entity that has both name and type. This is true for local variables, methods and fields.

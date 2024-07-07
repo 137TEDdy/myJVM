@@ -1,6 +1,6 @@
-package haidnor.jvm.core;
+package ted.jvm.core;
 
-import haidnor.jvm.runtime.JVMThread;
+import ted.jvm.runtime.JVMThread;
 
 public abstract class JVMThreadHolder {
 

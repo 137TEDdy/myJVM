@@ -1,10 +1,10 @@
-package haidnor.jvm.classloader;
+package ted.jvm.classloader;
 
-import haidnor.jvm.bcel.classfile.ClassParser;
-import haidnor.jvm.bcel.classfile.JavaClass;
-import haidnor.jvm.bcel.classfile.JavaMethod;
-import haidnor.jvm.core.JavaExecutionEngine;
-import haidnor.jvm.rtda.Metaspace;
+import ted.jvm.bcel.classfile.ClassParser;
+import ted.jvm.bcel.classfile.JavaClass;
+import ted.jvm.bcel.classfile.JavaMethod;
+import ted.jvm.core.JavaExecutionEngine;
+import ted.jvm.rtda.Metaspace;
 import lombok.SneakyThrows;
 
 import java.io.InputStream;
@@ -39,7 +39,7 @@ public class JVMClassLoader {
     }
 
     /**
-     * @param classPath 类路径,例如 haidnor/jvm/classloader/ClassLoader
+     * @param classPath 类路径,例如 ted/jvm/classloader/ClassLoader
      */
     @SneakyThrows
     public JavaClass loadWithClassPath(String classPath) {

@@ -14,11 +14,11 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-package haidnor.jvm.bcel;
+package ted.jvm.bcel;
 
-import haidnor.jvm.bcel.classfile.JavaClass;
-import haidnor.jvm.bcel.util.ClassPath;
-import haidnor.jvm.bcel.util.SyntheticRepository;
+import ted.jvm.bcel.classfile.JavaClass;
+import ted.jvm.bcel.util.ClassPath;
+import ted.jvm.bcel.util.SyntheticRepository;
 
 import java.io.IOException;
 
@@ -26,12 +26,12 @@ import java.io.IOException;
  * The repository maintains informations about class interdependencies, e.g., whether a class is a sub-class of another.
  * Delegates actual class loading to SyntheticRepository with current class path by default.
  *
- * @see haidnor.jvm.bcel.util.Repository
+ * @see ted.jvm.bcel.util.Repository
  * @see SyntheticRepository
  */
 public abstract class Repository {
 
-    private static haidnor.jvm.bcel.util.Repository repository = SyntheticRepository.getInstance();
+    private static ted.jvm.bcel.util.Repository repository = SyntheticRepository.getInstance();
 
     /**
      * Adds clazz to repository if there isn't an equally named class already in there.
@@ -73,14 +73,14 @@ public abstract class Repository {
     /**
      * @return currently used repository instance
      */
-    public static haidnor.jvm.bcel.util.Repository getRepository() {
+    public static ted.jvm.bcel.util.Repository getRepository() {
         return repository;
     }
 
     /**
      * Sets repository instance to be used for class loading
      */
-    public static void setRepository(final haidnor.jvm.bcel.util.Repository rep) {
+    public static void setRepository(final ted.jvm.bcel.util.Repository rep) {
         repository = rep;
     }
 

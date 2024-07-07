@@ -1,11 +1,11 @@
-package haidnor.jvm.runtime;
+package ted.jvm.runtime;
 
-import haidnor.jvm.bcel.Const;
-import haidnor.jvm.bcel.classfile.Code;
-import haidnor.jvm.bcel.classfile.JavaClass;
-import haidnor.jvm.bcel.classfile.JavaMethod;
-import haidnor.jvm.rtda.Instance;
-import haidnor.jvm.core.CodeStream;
+import ted.jvm.bcel.Const;
+import ted.jvm.bcel.classfile.Code;
+import ted.jvm.bcel.classfile.JavaClass;
+import ted.jvm.bcel.classfile.JavaMethod;
+import ted.jvm.rtda.Instance;
+import ted.jvm.core.CodeStream;
 import lombok.Getter;
 
 import java.util.Stack;

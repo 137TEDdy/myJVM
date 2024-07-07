@@ -1,9 +1,9 @@
-package haidnor.jvm.instruction.stores;
+package ted.jvm.instruction.stores;
 
-import haidnor.jvm.instruction.Instruction;
-import haidnor.jvm.runtime.Frame;
-import haidnor.jvm.runtime.StackValue;
-import haidnor.jvm.core.CodeStream;
+import ted.jvm.instruction.Instruction;
+import ted.jvm.runtime.Frame;
+import ted.jvm.runtime.StackValue;
+import ted.jvm.core.CodeStream;
 
 public class LSTORE_3 extends Instruction {
 

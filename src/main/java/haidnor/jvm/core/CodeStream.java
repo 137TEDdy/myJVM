@@ -1,8 +1,8 @@
-package haidnor.jvm.core;
+package ted.jvm.core;
 
 
-import haidnor.jvm.bcel.classfile.Code;
-import haidnor.jvm.instruction.Instruction;
+import ted.jvm.bcel.classfile.Code;
+import ted.jvm.instruction.Instruction;
 import lombok.Getter;
 import lombok.SneakyThrows;
 

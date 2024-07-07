@@ -1,17 +1,17 @@
-package haidnor.jvm.instruction;
+package ted.jvm.instruction;
 
-import haidnor.jvm.bcel.Const;
-import haidnor.jvm.instruction.comparisons.*;
-import haidnor.jvm.instruction.constants.*;
-import haidnor.jvm.instruction.control.*;
-import haidnor.jvm.instruction.conversions.*;
-import haidnor.jvm.instruction.extended.*;
-import haidnor.jvm.instruction.loads.*;
-import haidnor.jvm.instruction.math.*;
-import haidnor.jvm.instruction.references.*;
-import haidnor.jvm.instruction.stack.*;
-import haidnor.jvm.instruction.stores.*;
-import haidnor.jvm.core.CodeStream;
+import ted.jvm.bcel.Const;
+import ted.jvm.instruction.comparisons.*;
+import ted.jvm.instruction.constants.*;
+import ted.jvm.instruction.control.*;
+import ted.jvm.instruction.conversions.*;
+import ted.jvm.instruction.extended.*;
+import ted.jvm.instruction.loads.*;
+import ted.jvm.instruction.math.*;
+import ted.jvm.instruction.references.*;
+import ted.jvm.instruction.stack.*;
+import ted.jvm.instruction.stores.*;
+import ted.jvm.core.CodeStream;
 
 public abstract class InstructionFactory {
 

@@ -15,7 +15,7 @@
  *  limitations under the License.
  */
 
-package haidnor.jvm.bcel.generic;
+package ted.jvm.bcel.generic;
 
 /**
  * Denote that a class targets InstructionHandles within an InstructionList. Namely the following implementers:

@@ -1,7 +1,7 @@
-package haidnor.jvm.instruction;
+package ted.jvm.instruction;
 
-import haidnor.jvm.runtime.Frame;
-import haidnor.jvm.core.CodeStream;
+import ted.jvm.runtime.Frame;
+import ted.jvm.core.CodeStream;
 import lombok.Getter;
 import lombok.Setter;
 

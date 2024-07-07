@@ -1,4 +1,4 @@
-package haidnor.jvm.test.demo;
+package ted.jvm.test.demo;
 
 public class demo_helloWorld {
 

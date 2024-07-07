@@ -1,6 +1,6 @@
-package haidnor.jvm.rtda;
+package ted.jvm.rtda;
 
-import haidnor.jvm.bcel.classfile.JavaClass;
+import ted.jvm.bcel.classfile.JavaClass;
 
 public class InstanceArray extends ArrayInstance {
 

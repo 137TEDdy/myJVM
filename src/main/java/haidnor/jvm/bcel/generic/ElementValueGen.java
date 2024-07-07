@@ -14,9 +14,9 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-package haidnor.jvm.bcel.generic;
+package ted.jvm.bcel.generic;
 
-import haidnor.jvm.bcel.classfile.*;
+import ted.jvm.bcel.classfile.*;
 
 import java.io.DataInput;
 import java.io.DataOutputStream;

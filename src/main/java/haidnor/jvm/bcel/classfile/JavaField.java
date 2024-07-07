@@ -14,11 +14,11 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-package haidnor.jvm.bcel.classfile;
+package ted.jvm.bcel.classfile;
 
-import haidnor.jvm.bcel.Const;
-import haidnor.jvm.bcel.generic.Type;
-import haidnor.jvm.bcel.util.BCELComparator;
+import ted.jvm.bcel.Const;
+import ted.jvm.bcel.generic.Type;
+import ted.jvm.bcel.util.BCELComparator;
 
 import java.io.DataInput;
 import java.io.IOException;

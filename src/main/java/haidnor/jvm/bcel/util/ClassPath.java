@@ -14,10 +14,10 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-package haidnor.jvm.bcel.util;
+package ted.jvm.bcel.util;
 
-import haidnor.jvm.bcel.classfile.JavaClass;
-import haidnor.jvm.bcel.classfile.Utility;
+import ted.jvm.bcel.classfile.JavaClass;
+import ted.jvm.bcel.classfile.Utility;
 
 import java.io.*;
 import java.net.MalformedURLException;
@@ -41,7 +41,7 @@ public class ClassPath implements Closeable {
     };
     private static final FilenameFilter MODULES_FILTER = (dir, name) -> {
         name = name.toLowerCase(Locale.ENGLISH);
-        return name.endsWith(haidnor.jvm.bcel.classfile.Module.EXTENSION);
+        return name.endsWith(ted.jvm.bcel.classfile.Module.EXTENSION);
     };
     public static final ClassPath SYSTEM_CLASS_PATH = new ClassPath(getClassPath());
     private final String classPathString;
@@ -71,7 +71,7 @@ public class ClassPath implements Closeable {
                     if (file.exists()) {
                         if (file.isDirectory()) {
                             paths.add(new Dir(path));
-                        } else if (path.endsWith(haidnor.jvm.bcel.classfile.Module.EXTENSION)) {
+                        } else if (path.endsWith(ted.jvm.bcel.classfile.Module.EXTENSION)) {
                             paths.add(new Module(new ZipFile(file)));
                         } else if (path.endsWith(ModularRuntimeImage.MODULES_PATH)) {
                             paths.add(new JrtModules(ModularRuntimeImage.MODULES_PATH));

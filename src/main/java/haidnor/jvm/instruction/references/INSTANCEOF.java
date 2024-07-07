@@ -1,14 +1,14 @@
-package haidnor.jvm.instruction.references;
+package ted.jvm.instruction.references;
 
-import haidnor.jvm.bcel.Const;
-import haidnor.jvm.bcel.classfile.ConstantClass;
-import haidnor.jvm.bcel.classfile.JavaClass;
-import haidnor.jvm.bcel.classfile.Utility;
-import haidnor.jvm.instruction.Instruction;
-import haidnor.jvm.rtda.Instance;
-import haidnor.jvm.runtime.Frame;
-import haidnor.jvm.runtime.StackValue;
-import haidnor.jvm.core.CodeStream;
+import ted.jvm.bcel.Const;
+import ted.jvm.bcel.classfile.ConstantClass;
+import ted.jvm.bcel.classfile.JavaClass;
+import ted.jvm.bcel.classfile.Utility;
+import ted.jvm.instruction.Instruction;
+import ted.jvm.rtda.Instance;
+import ted.jvm.runtime.Frame;
+import ted.jvm.runtime.StackValue;
+import ted.jvm.core.CodeStream;
 import lombok.SneakyThrows;
 
 /**

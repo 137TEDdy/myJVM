@@ -1,4 +1,4 @@
-package haidnor.jvm.test.instruction.math;
+package ted.jvm.test.instruction.math;
 
 public class LSUB {
     public static void main(String[] args) {

@@ -14,7 +14,7 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-package haidnor.jvm.bcel.classfile;
+package ted.jvm.bcel.classfile;
 
 import java.io.DataOutputStream;
 import java.io.IOException;

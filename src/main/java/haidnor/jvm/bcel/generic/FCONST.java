@@ -14,9 +14,9 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-package haidnor.jvm.bcel.generic;
+package ted.jvm.bcel.generic;
 
-import haidnor.jvm.bcel.Const;
+import ted.jvm.bcel.Const;
 
 /**
  * FCONST - Push 0.0, 1.0 or 2.0, other values cause an exception

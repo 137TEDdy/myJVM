@@ -1,12 +1,12 @@
-package haidnor.jvm.instruction.references;
+package ted.jvm.instruction.references;
 
-import haidnor.jvm.bcel.classfile.ConstantFieldref;
-import haidnor.jvm.bcel.classfile.JavaField;
-import haidnor.jvm.instruction.Instruction;
-import haidnor.jvm.rtda.Instance;
-import haidnor.jvm.runtime.Frame;
-import haidnor.jvm.runtime.StackValue;
-import haidnor.jvm.core.CodeStream;
+import ted.jvm.bcel.classfile.ConstantFieldref;
+import ted.jvm.bcel.classfile.JavaField;
+import ted.jvm.instruction.Instruction;
+import ted.jvm.rtda.Instance;
+import ted.jvm.runtime.Frame;
+import ted.jvm.runtime.StackValue;
+import ted.jvm.core.CodeStream;
 import lombok.SneakyThrows;
 
 public class PUTFIELD extends Instruction {

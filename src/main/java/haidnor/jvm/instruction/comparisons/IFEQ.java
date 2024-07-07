@@ -1,9 +1,9 @@
-package haidnor.jvm.instruction.comparisons;
+package ted.jvm.instruction.comparisons;
 
-import haidnor.jvm.instruction.Instruction;
-import haidnor.jvm.runtime.Frame;
-import haidnor.jvm.runtime.StackValue;
-import haidnor.jvm.core.CodeStream;
+import ted.jvm.instruction.Instruction;
+import ted.jvm.runtime.Frame;
+import ted.jvm.runtime.StackValue;
+import ted.jvm.core.CodeStream;
 
 public class IFEQ extends Instruction {
 

@@ -15,10 +15,10 @@
  *  limitations under the License.
  */
 
-package haidnor.jvm.bcel.classfile;
+package ted.jvm.bcel.classfile;
 
-import haidnor.jvm.bcel.Const;
-import haidnor.jvm.bcel.util.ByteSequence;
+import ted.jvm.bcel.Const;
+import ted.jvm.bcel.util.ByteSequence;
 import org.apache.commons.lang3.ArrayUtils;
 
 import java.io.*;

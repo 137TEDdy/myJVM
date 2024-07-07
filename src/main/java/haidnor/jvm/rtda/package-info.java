@@ -14,4 +14,4 @@ JVM（Java虚拟机）的 RTDA（Run-time Data Area）是指在程序运行时�
 RTDA是JVM在运行时为Java应用程序提供的数据区域，每个线程都有自己的私有数据区域（程序计数器、虚拟机栈和本地方法栈），而Java堆和方法区则是所有线程共享的。这些区域的组合提供了Java程序运行所需的内存空间。
 
 */
-package haidnor.jvm.rtda;
+package ted.jvm.rtda;

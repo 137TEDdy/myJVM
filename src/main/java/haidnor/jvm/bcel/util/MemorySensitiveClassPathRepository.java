@@ -14,10 +14,10 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-package haidnor.jvm.bcel.util;
+package ted.jvm.bcel.util;
 
-import haidnor.jvm.bcel.Repository;
-import haidnor.jvm.bcel.classfile.JavaClass;
+import ted.jvm.bcel.Repository;
+import ted.jvm.bcel.classfile.JavaClass;
 
 import java.lang.ref.SoftReference;
 import java.util.HashMap;

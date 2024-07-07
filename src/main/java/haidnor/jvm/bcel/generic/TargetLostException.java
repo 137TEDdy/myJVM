@@ -14,7 +14,7 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-package haidnor.jvm.bcel.generic;
+package ted.jvm.bcel.generic;
 
 /**
  * Thrown by InstructionList.remove() when one or multiple disposed instructions are still being referenced by an

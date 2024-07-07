@@ -1,9 +1,9 @@
-package haidnor.jvm.instruction.references;
+package ted.jvm.instruction.references;
 
-import haidnor.jvm.instruction.Instruction;
-import haidnor.jvm.rtda.ArrayInstance;
-import haidnor.jvm.runtime.Frame;
-import haidnor.jvm.core.CodeStream;
+import ted.jvm.instruction.Instruction;
+import ted.jvm.rtda.ArrayInstance;
+import ted.jvm.runtime.Frame;
+import ted.jvm.core.CodeStream;
 import lombok.SneakyThrows;
 
 public class ARRAYLENGTH extends Instruction {

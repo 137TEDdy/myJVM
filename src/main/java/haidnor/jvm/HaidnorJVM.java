@@ -1,11 +1,11 @@
-package haidnor.jvm;
+package ted.jvm;
 
-import haidnor.jvm.bcel.classfile.JavaClass;
-import haidnor.jvm.classloader.JVMClassLoader;
-import haidnor.jvm.core.JavaExecutionEngine;
-import haidnor.jvm.rtda.Metaspace;
-import haidnor.jvm.runtime.JVMThread;
-import haidnor.jvm.core.JVMThreadHolder;
+import ted.jvm.bcel.classfile.JavaClass;
+import ted.jvm.classloader.JVMClassLoader;
+import ted.jvm.core.JavaExecutionEngine;
+import ted.jvm.rtda.Metaspace;
+import ted.jvm.runtime.JVMThread;
+import ted.jvm.core.JVMThreadHolder;
 import lombok.SneakyThrows;
 import org.apache.commons.cli.*;
 
@@ -13,21 +13,10 @@ import java.util.Enumeration;
 import java.util.jar.JarEntry;
 import java.util.jar.JarFile;
 
-/**
- * <a href="https://github.com/FranzHaidnor">GitHub FranzHaidnor</a>
- */
-public class HaidnorJVM {
+public class tedJVM {
 
     @SneakyThrows
     public static void main(String[] args) {
-//        String banner = "
-//                    ██╗  ██╗ █████╗ ██╗██████╗ ███╗   ██╗ ██████╗ ██████╗          ██╗██╗   ██╗███╗   ███╗ \n
-//                    ██║  ██║██╔══██╗██║██╔══██╗████╗  ██║██╔═══██╗██╔══██╗         ██║██║   ██║████╗ ████║
-//                    ███████║███████║██║██║  ██║██╔██╗ ██║██║   ██║██████╔╝         ██║██║   ██║██╔████╔██║
-//                    ██╔══██║██╔══██║██║██║  ██║██║╚██╗██║██║   ██║██╔══██╗    ██   ██║╚██╗ ██╔╝██║╚██╔╝██║
-//                    ██║  ██║██║  ██║██║██████╔╝██║ ╚████║╚██████╔╝██║  ██║    ╚█████╔╝ ╚████╔╝ ██║ ╚═╝ ██║
-//                    ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚═════╝ ╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═╝     ╚════╝   ╚═══╝  ╚═╝     ╚═╝
-//                ";
         String banner="----------JVM--------------";
         System.out.println(banner);
 

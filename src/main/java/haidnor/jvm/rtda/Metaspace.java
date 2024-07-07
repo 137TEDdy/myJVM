@@ -1,6 +1,6 @@
-package haidnor.jvm.rtda;
+package ted.jvm.rtda;
 
-import haidnor.jvm.bcel.classfile.JavaClass;
+import ted.jvm.bcel.classfile.JavaClass;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
@@ -11,7 +11,7 @@ public class Metaspace {
 
     /**
      * 名称用.符号分割
-     * 例如: haidnor.jvm.test.instruction.references.NEW
+     * 例如: ted.jvm.test.instruction.references.NEW
      */
     public static JavaClass getJavaClass(String className) {
         return javaClassMap.get(className);
@@ -19,7 +19,7 @@ public class Metaspace {
 
     /**
      * 注册名称用.符号分割
-     * 例如: haidnor.jvm.test.instruction.references.NEW
+     * 例如: ted.jvm.test.instruction.references.NEW
      */
     public static void registerJavaClass(JavaClass javaClass) {
         String className = javaClass.getClassName();

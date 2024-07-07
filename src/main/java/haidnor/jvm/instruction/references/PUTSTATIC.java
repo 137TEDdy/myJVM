@@ -1,10 +1,10 @@
-package haidnor.jvm.instruction.references;
+package ted.jvm.instruction.references;
 
-import haidnor.jvm.bcel.classfile.*;
-import haidnor.jvm.instruction.Instruction;
-import haidnor.jvm.rtda.Metaspace;
-import haidnor.jvm.runtime.Frame;
-import haidnor.jvm.core.CodeStream;
+import ted.jvm.bcel.classfile.*;
+import ted.jvm.instruction.Instruction;
+import ted.jvm.rtda.Metaspace;
+import ted.jvm.runtime.Frame;
+import ted.jvm.core.CodeStream;
 import lombok.SneakyThrows;
 
 /**

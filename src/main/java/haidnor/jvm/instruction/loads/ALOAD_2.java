@@ -1,10 +1,10 @@
-package haidnor.jvm.instruction.loads;
+package ted.jvm.instruction.loads;
 
-import haidnor.jvm.instruction.Instruction;
-import haidnor.jvm.runtime.Frame;
-import haidnor.jvm.runtime.StackValue;
-import haidnor.jvm.core.CodeStream;
-import haidnor.jvm.bcel.Const;
+import ted.jvm.instruction.Instruction;
+import ted.jvm.runtime.Frame;
+import ted.jvm.runtime.StackValue;
+import ted.jvm.core.CodeStream;
+import ted.jvm.bcel.Const;
 
 public class ALOAD_2 extends Instruction {
 

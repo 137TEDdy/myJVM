@@ -14,7 +14,7 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-package haidnor.jvm.bcel.generic;
+package ted.jvm.bcel.generic;
 
 /**
  * Get the type associated with an instruction, int for ILOAD, or the type of the field of a PUTFIELD instruction, e.g..

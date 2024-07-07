@@ -1,9 +1,9 @@
-package haidnor.jvm.test.demo;
+package ted.jvm.test.demo;
 
 
-import haidnor.jvm.test.clazz.Human;
-import haidnor.jvm.test.clazz.Organism0;
-import haidnor.jvm.test.clazz.Student;
+import ted.jvm.test.clazz.Human;
+import ted.jvm.test.clazz.Organism0;
+import ted.jvm.test.clazz.Student;
 
 public class Demo8 {
 

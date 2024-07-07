@@ -15,10 +15,10 @@
  *  limitations under the License.
  */
 
-package haidnor.jvm.bcel.util;
+package ted.jvm.bcel.util;
 
-import haidnor.jvm.bcel.Const;
-import haidnor.jvm.bcel.classfile.ClassFormatException;
+import ted.jvm.bcel.Const;
+import ted.jvm.bcel.classfile.ClassFormatException;
 
 /**
  * Argument validation.

@@ -14,7 +14,7 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-package haidnor.jvm.bcel;
+package ted.jvm.bcel;
 
 import java.util.Arrays;
 import java.util.Collections;

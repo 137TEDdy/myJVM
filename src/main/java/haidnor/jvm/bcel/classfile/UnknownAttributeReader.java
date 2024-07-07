@@ -15,7 +15,7 @@
  *  limitations under the License.
  */
 
-package haidnor.jvm.bcel.classfile;
+package ted.jvm.bcel.classfile;
 
 /**
  * Unknown (non-standard) attributes may be read via user-defined factory objects that can be registered with the

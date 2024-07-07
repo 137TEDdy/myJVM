@@ -14,11 +14,11 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-package haidnor.jvm.bcel.util;
+package ted.jvm.bcel.util;
 
-import haidnor.jvm.bcel.Const;
-import haidnor.jvm.bcel.classfile.Utility;
-import haidnor.jvm.bcel.generic.*;
+import ted.jvm.bcel.Const;
+import ted.jvm.bcel.classfile.Utility;
+import ted.jvm.bcel.generic.*;
 
 import java.io.PrintWriter;
 import java.util.*;

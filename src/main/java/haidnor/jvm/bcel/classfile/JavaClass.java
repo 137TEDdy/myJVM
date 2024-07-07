@@ -14,17 +14,17 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-package haidnor.jvm.bcel.classfile;
+package ted.jvm.bcel.classfile;
 
-import haidnor.jvm.bcel.Const;
-import haidnor.jvm.bcel.generic.ClassGen;
-import haidnor.jvm.bcel.generic.Type;
-import haidnor.jvm.bcel.util.BCELComparator;
-import haidnor.jvm.bcel.util.ClassQueue;
-import haidnor.jvm.bcel.util.Repository;
-import haidnor.jvm.bcel.util.SyntheticRepository;
-import haidnor.jvm.classloader.JVMClassLoader;
-import haidnor.jvm.rtda.Instance;
+import ted.jvm.bcel.Const;
+import ted.jvm.bcel.generic.ClassGen;
+import ted.jvm.bcel.generic.Type;
+import ted.jvm.bcel.util.BCELComparator;
+import ted.jvm.bcel.util.ClassQueue;
+import ted.jvm.bcel.util.Repository;
+import ted.jvm.bcel.util.SyntheticRepository;
+import ted.jvm.classloader.JVMClassLoader;
+import ted.jvm.rtda.Instance;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.SneakyThrows;
@@ -99,7 +99,7 @@ public class JavaClass extends AccessFlags implements Cloneable, Node, Comparabl
     private boolean isNested;
     private boolean computedNestedTypeStatus;
 
-    // ---------------------------------------------- haidnorJVM >
+    // ---------------------------------------------- tedJVM >
     /**
      * In cases where we go ahead and create something, use the default SyntheticRepository, because we don't know any
      * better.
@@ -109,7 +109,7 @@ public class JavaClass extends AccessFlags implements Cloneable, Node, Comparabl
     @Setter
     private JVMClassLoader JVMClassLoader;
 
-    // ---------------------------------------------- haidnorJVM <
+    // ---------------------------------------------- tedJVM <
 
     /**
      * Constructor gets all contents as arguments.
@@ -884,7 +884,7 @@ public class JavaClass extends AccessFlags implements Cloneable, Node, Comparabl
         return buf.toString();
     }
 
-    // ---------------------------------------------- haidnorJVM
+    // ---------------------------------------------- tedJVM
 
     /**
      * 获取 main 方法

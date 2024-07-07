@@ -1,4 +1,4 @@
-package haidnor.jvm.test.model;
+package ted.jvm.test.model;
 
 public interface Animal {
 

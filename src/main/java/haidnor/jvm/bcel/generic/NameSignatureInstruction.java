@@ -15,12 +15,12 @@
  *  limitations under the License.
  */
 
-package haidnor.jvm.bcel.generic;
+package ted.jvm.bcel.generic;
 
-import haidnor.jvm.bcel.classfile.ConstantCP;
-import haidnor.jvm.bcel.classfile.ConstantNameAndType;
-import haidnor.jvm.bcel.classfile.ConstantPool;
-import haidnor.jvm.bcel.classfile.ConstantUtf8;
+import ted.jvm.bcel.classfile.ConstantCP;
+import ted.jvm.bcel.classfile.ConstantNameAndType;
+import ted.jvm.bcel.classfile.ConstantPool;
+import ted.jvm.bcel.classfile.ConstantUtf8;
 
 /**
  * Super class for FieldOrMethod and INVOKEDYNAMIC, since they both have names and signatures

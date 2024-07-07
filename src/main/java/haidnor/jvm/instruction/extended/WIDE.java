@@ -1,11 +1,11 @@
-package haidnor.jvm.instruction.extended;
+package ted.jvm.instruction.extended;
 
-import haidnor.jvm.instruction.Instruction;
-import haidnor.jvm.instruction.loads.*;
-import haidnor.jvm.instruction.math.IINC;
-import haidnor.jvm.instruction.stores.*;
-import haidnor.jvm.runtime.Frame;
-import haidnor.jvm.core.CodeStream;
+import ted.jvm.instruction.Instruction;
+import ted.jvm.instruction.loads.*;
+import ted.jvm.instruction.math.IINC;
+import ted.jvm.instruction.stores.*;
+import ted.jvm.runtime.Frame;
+import ted.jvm.core.CodeStream;
 
 public class WIDE extends Instruction {
 

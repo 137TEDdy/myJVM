@@ -1,8 +1,8 @@
-package haidnor.jvm.rtda;
+package ted.jvm.rtda;
 
 
-import haidnor.jvm.bcel.classfile.JavaClass;
-import haidnor.jvm.bcel.classfile.JavaField;
+import ted.jvm.bcel.classfile.JavaClass;
+import ted.jvm.bcel.classfile.JavaField;
 import lombok.Getter;
 
 import java.util.ArrayList;

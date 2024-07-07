@@ -1,4 +1,4 @@
-package haidnor.jvm.test.clazz;
+package ted.jvm.test.clazz;
 
 @FunctionalInterface
 public interface Func {

@@ -14,7 +14,7 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-package haidnor.jvm.bcel.classfile;
+package ted.jvm.bcel.classfile;
 
 /**
  * Interface to make use of the Visitor pattern programming style. I.e. a class that implements this interface can

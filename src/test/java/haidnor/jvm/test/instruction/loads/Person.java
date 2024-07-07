@@ -1,4 +1,4 @@
-package haidnor.jvm.test.instruction.loads;
+package ted.jvm.test.instruction.loads;
 
 public abstract class Person {
 }

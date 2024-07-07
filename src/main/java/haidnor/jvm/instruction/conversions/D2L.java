@@ -1,8 +1,8 @@
-package haidnor.jvm.instruction.conversions;
+package ted.jvm.instruction.conversions;
 
-import haidnor.jvm.instruction.Instruction;
-import haidnor.jvm.runtime.Frame;
-import haidnor.jvm.core.CodeStream;
+import ted.jvm.instruction.Instruction;
+import ted.jvm.runtime.Frame;
+import ted.jvm.core.CodeStream;
 
 public class D2L extends Instruction {
 

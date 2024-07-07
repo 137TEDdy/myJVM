@@ -14,11 +14,11 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-package haidnor.jvm.bcel.util;
+package ted.jvm.bcel.util;
 
-import haidnor.jvm.bcel.classfile.ClassParser;
-import haidnor.jvm.bcel.classfile.JavaClass;
-import haidnor.jvm.bcel.classfile.Utility;
+import ted.jvm.bcel.classfile.ClassParser;
+import ted.jvm.bcel.classfile.JavaClass;
+import ted.jvm.bcel.classfile.Utility;
 
 import java.io.IOException;
 import java.io.InputStream;

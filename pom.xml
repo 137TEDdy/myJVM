@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>haindor.vm</groupId>
-  <artifactId>haidnorJVM</artifactId>
+  <artifactId>tedJVM</artifactId>
   <version>1.0</version>
 
   <properties>
@@ -60,7 +60,7 @@
   </dependencies>
 
   <build>
-    <finalName>haidnorJVM</finalName>
+    <finalName>tedJVM</finalName>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -76,7 +76,7 @@
 <!--              <shadedArtifactAttached>true</shadedArtifactAttached>-->
               <transformers>
                 <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                  <mainClass>haidnor.jvm.HaidnorJVM</mainClass>
+                  <mainClass>ted.jvm.tedJVM</mainClass>
                 </transformer>
               </transformers>
             </configuration>

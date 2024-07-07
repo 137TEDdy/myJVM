@@ -14,11 +14,11 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-package haidnor.jvm.bcel.generic;
+package ted.jvm.bcel.generic;
 
-import haidnor.jvm.bcel.classfile.ClassElementValue;
-import haidnor.jvm.bcel.classfile.ConstantUtf8;
-import haidnor.jvm.bcel.classfile.ElementValue;
+import ted.jvm.bcel.classfile.ClassElementValue;
+import ted.jvm.bcel.classfile.ConstantUtf8;
+import ted.jvm.bcel.classfile.ElementValue;
 
 import java.io.DataOutputStream;
 import java.io.IOException;

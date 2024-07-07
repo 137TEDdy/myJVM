@@ -1,10 +1,10 @@
-package haidnor.jvm.test.demo1;
+package ted.jvm.test.demo1;
 
-import haidnor.jvm.HaidnorJVM;
+import ted.jvm.tedJVM;
 
 public class Test1 {
     public static void main(String[] args) {
-        HaidnorJVM.testRun(TestClass.class);
+        tedJVM.testRun(TestClass.class);
     }
 
 }

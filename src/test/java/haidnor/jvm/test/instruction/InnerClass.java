@@ -1,4 +1,4 @@
-package haidnor.jvm.test.instruction;
+package ted.jvm.test.instruction;
 
 public class InnerClass {
     public static void main(String[] args) {

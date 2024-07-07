@@ -1,4 +1,4 @@
-package haidnor.jvm.rtda;
+package ted.jvm.rtda;
 
 public class BasicTypeArray extends ArrayInstance {
 

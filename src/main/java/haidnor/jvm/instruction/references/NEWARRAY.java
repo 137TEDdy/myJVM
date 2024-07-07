@@ -1,11 +1,11 @@
-package haidnor.jvm.instruction.references;
+package ted.jvm.instruction.references;
 
-import haidnor.jvm.instruction.Instruction;
-import haidnor.jvm.rtda.BasicTypeArray;
-import haidnor.jvm.runtime.Frame;
-import haidnor.jvm.core.CodeStream;
+import ted.jvm.instruction.Instruction;
+import ted.jvm.rtda.BasicTypeArray;
+import ted.jvm.runtime.Frame;
+import ted.jvm.core.CodeStream;
 import lombok.SneakyThrows;
-import haidnor.jvm.bcel.Const;
+import ted.jvm.bcel.Const;
 
 public class NEWARRAY extends Instruction {
 

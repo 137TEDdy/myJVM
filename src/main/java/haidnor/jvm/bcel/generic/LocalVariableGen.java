@@ -14,10 +14,10 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-package haidnor.jvm.bcel.generic;
+package ted.jvm.bcel.generic;
 
-import haidnor.jvm.bcel.Const;
-import haidnor.jvm.bcel.classfile.LocalVariable;
+import ted.jvm.bcel.Const;
+import ted.jvm.bcel.classfile.LocalVariable;
 
 /**
  * Represents a local variable within a method. It contains its scope, name and type. The generated LocalVariable object

@@ -1,4 +1,4 @@
-package haidnor.jvm.runtime;
+package ted.jvm.runtime;
 
 import lombok.Getter;
 

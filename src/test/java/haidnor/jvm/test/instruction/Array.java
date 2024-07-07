@@ -1,6 +1,6 @@
-package haidnor.jvm.test.instruction;
+package ted.jvm.test.instruction;
 
-import haidnor.jvm.test.instruction.loads.Student1;
+import ted.jvm.test.instruction.loads.Student1;
 
 public class Array {
     public static void main(String[] args) {

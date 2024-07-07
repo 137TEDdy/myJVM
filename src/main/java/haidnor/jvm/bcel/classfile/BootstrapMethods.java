@@ -15,9 +15,9 @@
  *  limitations under the License.
  */
 
-package haidnor.jvm.bcel.classfile;
+package ted.jvm.bcel.classfile;
 
-import haidnor.jvm.bcel.Const;
+import ted.jvm.bcel.Const;
 
 import java.io.DataInput;
 import java.io.DataOutputStream;

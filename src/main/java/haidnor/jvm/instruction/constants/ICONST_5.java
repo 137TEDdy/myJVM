@@ -1,10 +1,10 @@
-package haidnor.jvm.instruction.constants;
+package ted.jvm.instruction.constants;
 
-import haidnor.jvm.instruction.Instruction;
-import haidnor.jvm.runtime.Frame;
-import haidnor.jvm.runtime.StackValue;
-import haidnor.jvm.core.CodeStream;
-import haidnor.jvm.bcel.Const;
+import ted.jvm.instruction.Instruction;
+import ted.jvm.runtime.Frame;
+import ted.jvm.runtime.StackValue;
+import ted.jvm.core.CodeStream;
+import ted.jvm.bcel.Const;
 
 /**
  * https://docs.oracle.com/javase/specs/jvms/se19/html/jvms-6.html#jvms-6.5.iconst_i
